@@ -1,0 +1,125 @@
+.key-icon{
+    background: url('../images/key-icon.png');
+    width:30px;
+    height:30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background:rgb(255, 255, 255);
+    -webkit-mask:url("../images/key-icon.png") center/contain;
+            mask:url("../images/key-icon.png") center/contain;
+}
+
+#email-icon{
+    background: url('../images/email-icon.png') right no-repeat;
+}
+
+#lock-icon{
+    background: url('../images/lock-icon.png') right no-repeat;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #20201f;
+}
+
+.login-form-header{
+    color:white;
+    display:inline-block;
+    max-height:53px !important;
+}
+
+.login-form-header > h3{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    
+}
+
+.login-form-body{
+    background-color: #fafafa;
+    height:180px;
+    padding-top:10px;
+    padding-bottom:16px!important;
+}
+
+.input-field{
+    width: 80%;
+    height:35px;
+    border-color:#e7e5e5;
+    border-radius:3px;
+    border-width: 2px;
+    border-style:solid;
+}
+
+.input-field::placeholder{
+    color:#c0c0c0;
+    padding-left:5px;
+    font-size: small;
+    font-weight:550;
+
+}
+
+.input-field-button{
+    width: 82%;
+    height:35px;
+}
+
+
+.input-icons {
+    width: 100%;
+    padding:9px 9px;
+
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.login-form-container{
+    /* outline: 1px solid red; */
+    border-radius: 10px;
+    width: 290px;
+    height: 200px;
+    display: inline-block;  
+    margin-top:35px;
+    background-color:#03a9f4;  
+}
+
+.input-type {
+    display: inline-block;
+    width:10%;
+}
+
+.login-form-button{
+    background-color: #f44336;
+    border-radius: 3px;
+    border: 1px;
+    color: #fff;
+    font-size:small;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.login-form-footer{
+    background-color: #eeeeee;
+    padding: 15px 0px;
+    display:block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size: small;
+
+}
+
+.footer-text{
+    padding-left:10px;   
+    color:#939393;
+}
+
+
+
